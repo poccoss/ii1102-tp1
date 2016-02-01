@@ -6,12 +6,9 @@ public class Pave {
 	System.out.println("largeur du pave");
 	double L = recupvaleur(scan);
 	System.out.println("longeur du pave");
-	double ll = recupvaleur(scan);
+	double l = recupvaleur(scan);
 	System.out.println("hauteur du pave");
 	double h = recupvaleur(scan);
-	
-	double v=ll*L*h;
-	System.out.println("volume =" + v);
 	}
 
 	public static double recupvaleur(Scanner scan){
